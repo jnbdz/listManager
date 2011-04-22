@@ -24,22 +24,22 @@ AND
 
 Options:
 
-listElement: The element you want to use for the rows.
-addWhere: From the target, where you want the new row to be.
-rowHTML: What HTML you want to see in the row.
-target: The element where the new row will position it self from.
+* listElement: The element you want to use for the rows.
+* addWhere: From the target, where you want the new row to be.
+* rowHTML: What HTML you want to see in the row.
+* target: The element where the new row will position it self from.
 
 You can change the options when using the .add([options]) method.
 
 Events:
 
-onAddedRow: Activated when a new row is added. You get the added row.
-onRemovedRow: Activated when a row is removed. You get the removed row.
-onRemovedAllRows: Activated when a all the rows are removed. You get a array of all the rows you removed.
+* onAddedRow: Activated when a new row is added. You get the added row.
+* onRemovedRow: Activated when a row is removed. You get the removed row.
+* onRemovedAllRows: Activated when a all the rows are removed. You get a array of all the rows you removed.
 
 Tips:
 
-This is a small script to help add buttons to add and remove a row.
+This is a small script to help add buttons to add and remove a row inside a row.
 
 var rowContent = function() {
 
