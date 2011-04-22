@@ -23,7 +23,8 @@ var listManager = new Class({
         listElement: 'li', // or any other element...
         rowHTML: '',
         addWhere: 'after', // 'top', 'bottom', 'after', or 'before'
-        target: null
+        target: null,
+	noTargetAddWhere: 'top'
     },
     
     initialize: function(el, options){
@@ -44,7 +45,7 @@ var listManager = new Class({
         } else {
         
             var rowPosition = this.element;
-            var rowWhere = 'top';
+            var rowWhere = this.options.noTargetAddWhere;
         
         }
 

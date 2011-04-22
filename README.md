@@ -25,9 +25,10 @@ AND
 Options:
 
 * listElement: The element you want to use for the rows.
-* addWhere: From the target, where you want the new row to be.
+* addWhere: From the target, where you want the new row to be. You can use: top, bottom, after and before.
 * rowHTML: What HTML you want to see in the row.
 * target: The element where the new row will position it self from.
+* noTargetAddWhere: If there is no target define in the add method. You can use: top, bottom, after and before.
 
 You can change the options when using the .add([options]) method.
 
